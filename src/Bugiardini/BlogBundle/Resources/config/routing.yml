@@ -1,0 +1,5 @@
+bugiardini_blog_homepage:
+    path:     /
+    defaults: { _controller: BugiardiniBlogBundle:Page:index }
+    requirements:
+         _method:  GET

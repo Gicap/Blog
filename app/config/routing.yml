@@ -1,0 +1,4 @@
+bugiardini_blog:
+    resource: "@BugiardiniBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
