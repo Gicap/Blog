@@ -3,3 +3,10 @@ bugiardini_blog_homepage:
     defaults: { _controller: BugiardiniBlogBundle:Page:index }
     requirements:
          _method:  GET
+         
+bugiardini_blog_about:
+    path:     /chi_siamo
+    defaults: { _controller: BugiardiniBlogBundle:Page:about }
+    requirements:
+         _method:  GET
+
